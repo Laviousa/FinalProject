@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zass.finalproject.diet_plan_Activity">
+
+
+    <ImageView
+        android:layout_width="385dp"
+        android:layout_height="373dp"
+        android:src="@drawable/diet_plan_bg"
+        android:scaleType="fitXY"
+        tools:layout_editor_absoluteY="-1dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:layout_width="309dp"
+        android:layout_height="247dp"
+
+        android:src="@drawable/font_diet_plan"
+        tools:layout_editor_absoluteY="-1dp"
+        tools:layout_editor_absoluteX="26dp" />
+    <TextView
+        android:id="@+id/diet_plan_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLASSIC"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textSize="20pt"
+        tools:layout_editor_absoluteY="235dp"
+        tools:layout_editor_absoluteX="96dp" />
+
+    <Button
+        android:id="@+id/diet_plan_button"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_shsape_round"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:text="view diet plan"
+        android:textSize="7pt"
+
+        android:textAlignment="center"
+        android:layout_below="@+id/height_edit_text"
+        tools:layout_editor_absoluteY="432dp"
+        tools:layout_editor_absoluteX="42dp" />
+
+</android.support.constraint.ConstraintLayout>

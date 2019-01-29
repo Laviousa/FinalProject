@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zass.finalproject.calorie_chart_activity">
+
+
+    <TextView
+        android:id="@+id/calorie_chart_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALORIE CHART"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteY="27dp"
+        tools:layout_editor_absoluteX="109dp" />
+
+
+<ImageView
+    android:id="@+id/calorie_chart_image_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:src="@drawable/energybalance_calories_chart"
+    android:scaleType="fitCenter"
+    tools:layout_editor_absoluteY="16dp"
+    tools:layout_editor_absoluteX="0dp" />
+
+</android.support.constraint.ConstraintLayout>

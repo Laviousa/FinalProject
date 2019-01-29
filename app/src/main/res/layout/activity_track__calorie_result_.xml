@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zass.finalproject.track_Calorie_result_Activity">
+
+    <View
+        android:layout_width="259dp"
+        android:layout_height="37dp"
+        android:background="@drawable/btn_shsape_round"
+        tools:layout_editor_absoluteY="66dp"
+        tools:layout_editor_absoluteX="63dp" />
+
+    <View
+        android:layout_width="259dp"
+        android:layout_height="193dp"
+        android:background="@drawable/btn_shsape_round"
+        tools:layout_editor_absoluteY="192dp"
+        tools:layout_editor_absoluteX="63dp" />
+
+
+    <TextView
+        android:id="@+id/total_calories_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TOTAL CALORIES"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteY="25dp"
+        tools:layout_editor_absoluteX="104dp" />
+
+    <TextView
+        android:id="@+id/comment_text_view_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COMMENTS"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="normal"
+        android:layout_below="@+id/total_calories_text_view"
+        tools:layout_editor_absoluteY="159dp"
+        tools:layout_editor_absoluteX="142dp" />
+
+
+</android.support.constraint.ConstraintLayout>

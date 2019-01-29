@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zass.finalproject.calorie_evaluation_Activity">
+
+
+    <TextView
+        android:id="@+id/age_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="normal"
+        android:layout_alignParentTop="true"
+        tools:layout_editor_absoluteY="48dp"
+        tools:layout_editor_absoluteX="38dp" />
+
+
+    <TextView
+        android:id="@+id/gender_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteY="102dp"
+        tools:layout_editor_absoluteX="28dp" />
+
+    <TextView
+        android:id="@+id/height_text_view_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Height"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteY="182dp"
+        tools:layout_editor_absoluteX="28dp" />
+
+
+    <TextView
+        android:id="@+id/weigth_text_view_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteY="242dp"
+        tools:layout_editor_absoluteX="28dp" />
+
+    <EditText
+        android:id="@+id/age_edit_text_2"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:hint="yr"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="italic"
+        android:inputType="number"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_alignBaseline="@+id/weight_textview_2"
+        android:layout_alignBottom="@+id/weight_textview_2"
+        tools:layout_editor_absoluteY="48dp"
+        tools:layout_editor_absoluteX="280dp" />
+
+    <EditText
+        android:id="@+id/gender_edit_text"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:hint="m"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="italic"
+
+        android:inputType="number"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_alignBaseline="@+id/height_textview_2"
+        android:layout_alignBottom="@+id/height_textview_2"
+        tools:layout_editor_absoluteY="102dp"
+        tools:layout_editor_absoluteX="306dp" />
+
+    <EditText
+        android:id="@+id/height_edit_text_3"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:hint="m"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="italic"
+
+        android:inputType="number"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_alignBaseline="@+id/height_textview_2"
+        android:layout_alignBottom="@+id/height_textview_2"
+        tools:layout_editor_absoluteY="182dp"
+        tools:layout_editor_absoluteX="309dp" />
+
+
+    <EditText
+        android:id="@+id/weight_edit_text_3"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:hint="kg"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="italic"
+
+        android:inputType="number"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_alignBaseline="@+id/height_textview_2"
+        android:layout_alignBottom="@+id/height_textview_2"
+        tools:layout_editor_absoluteY="235dp"
+        tools:layout_editor_absoluteX="306dp" />
+
+    <Button
+        android:id="@+id/calorie_evaluation_button"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_shsape_round"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:text="evaluate"
+        android:textSize="7pt"
+
+        android:textAlignment="center"
+        android:layout_below="@+id/height_edit_text"
+        tools:layout_editor_absoluteY="313dp"
+        tools:layout_editor_absoluteX="42dp" />
+
+</android.support.constraint.ConstraintLayout>

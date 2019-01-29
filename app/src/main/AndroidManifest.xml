@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zass.finalproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SignUpSignIn_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SingUp_Activity" />
+        <activity android:name=".SignIn_Activity" />
+        <activity android:name=".BodyStats_Activity" />
+        <activity android:name=".bmiCalculation_Activity" />
+        <activity android:name=".Calorie_tracker_Activity" />
+        <activity android:name=".track_Calorie_result_Activity" />
+        <activity android:name=".calorie_chart_activity" />
+        <activity android:name=".calorie_evaluation_Activity" />
+        <activity android:name=".diet_plan_Activity"></activity>
+    </application>
+
+</manifest>
