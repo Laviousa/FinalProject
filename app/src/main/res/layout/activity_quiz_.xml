@@ -55,13 +55,13 @@
 
 
     <ImageButton
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="439dp"
-        android:id="@+id/next_image_button"
-        android:layout_width="97dp"
-        android:layout_height="56dp"
-        android:background="@color/colorAccent"
-        android:src="@drawable/right-arrow"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:src="@drawable/rightarrow"
+        tools:layout_editor_absoluteY="445dp"
+        tools:layout_editor_absoluteX="302dp" />
+
+
 
  />
 </android.support.constraint.ConstraintLayout>
