@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context="com.example.zass.finalproject.quiz_Activity">
+<View
+    android:id="@+id/quiz_view_1"
+    android:layout_width="350dp"
+    android:layout_height="150dp"
+    android:background="@drawable/view_shape_round"
+
+    tools:layout_editor_absoluteY="16dp"
+    tools:layout_editor_absoluteX="1dp" />
+
+    <View
+        android:id="@+id/quiz_view_2"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/view_shape_round"
+
+        tools:layout_editor_absoluteY="187dp"
+        tools:layout_editor_absoluteX="2dp" />
+
+    <View
+        android:id="@+id/quiz_view_3"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/view_shape_round"
+
+        tools:layout_editor_absoluteY="249dp"
+        tools:layout_editor_absoluteX="2dp" />
+
+
+    <View
+        android:id="@+id/quiz_view_4"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/view_shape_round"
+
+        tools:layout_editor_absoluteY="310dp"
+        tools:layout_editor_absoluteX="3dp" />
+
+    <View
+        android:id="@+id/quiz_view_5"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/view_shape_round"
+
+        tools:layout_editor_absoluteY="373dp"
+        tools:layout_editor_absoluteX="3dp" />
+
+
+    <ImageButton
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="439dp"
+        android:id="@+id/next_image_button"
+        android:layout_width="97dp"
+        android:layout_height="56dp"
+        android:background="@color/colorAccent"
+        android:src="@drawable/right-arrow"
+
+ />
+</android.support.constraint.ConstraintLayout>

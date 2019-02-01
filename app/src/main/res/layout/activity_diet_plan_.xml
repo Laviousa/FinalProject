@@ -16,12 +16,12 @@
         tools:layout_editor_absoluteX="0dp" />
 
     <ImageView
-        android:layout_width="309dp"
-        android:layout_height="247dp"
+        android:layout_width="271dp"
+        android:layout_height="212dp"
 
         android:src="@drawable/font_diet_plan"
-        tools:layout_editor_absoluteY="-1dp"
-        tools:layout_editor_absoluteX="26dp" />
+        tools:layout_editor_absoluteY="25dp"
+        tools:layout_editor_absoluteX="42dp" />
     <TextView
         android:id="@+id/diet_plan_text_view"
         android:layout_width="wrap_content"
@@ -32,7 +32,7 @@
         android:fontFamily="serif"
         android:textStyle="bold"
         android:textSize="20pt"
-        tools:layout_editor_absoluteY="235dp"
+        tools:layout_editor_absoluteY="224dp"
         tools:layout_editor_absoluteX="96dp" />
 
     <Button

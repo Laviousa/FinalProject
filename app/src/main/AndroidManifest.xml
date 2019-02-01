@@ -24,7 +24,8 @@
         <activity android:name=".track_Calorie_result_Activity" />
         <activity android:name=".calorie_chart_activity" />
         <activity android:name=".calorie_evaluation_Activity" />
-        <activity android:name=".diet_plan_Activity"></activity>
+        <activity android:name=".diet_plan_Activity" />
+        <activity android:name=".quiz_Activity"></activity>
     </application>
 
 </manifest>
