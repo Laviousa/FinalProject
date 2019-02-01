@@ -55,13 +55,13 @@
 
 
     <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="100dp"
         android:layout_height="50dp"
-        android:layout_width="50dp"
-        android:src="@drawable/rightarrow"
-        tools:layout_editor_absoluteY="445dp"
-        tools:layout_editor_absoluteX="302dp" />
+        android:src="@drawable/arrow"
+        android:background="@drawable/view_shape_round"
+        android:scaleType="fitCenter"
 
-
-
- />
+        tools:layout_editor_absoluteY="436dp"
+        tools:layout_editor_absoluteX="254dp" />
 </android.support.constraint.ConstraintLayout>
