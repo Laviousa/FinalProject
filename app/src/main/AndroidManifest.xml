@@ -16,16 +16,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SingUp_Activity" />
-        <activity android:name=".SignIn_Activity" />
-        <activity android:name=".BodyStats_Activity" />
-        <activity android:name=".bmiCalculation_Activity" />
         <activity android:name=".Calorie_tracker_Activity" />
+        <activity android:name=".home_screen_activity" />
+        <activity android:name=".BodyStats_Activity" />
         <activity android:name=".track_Calorie_result_Activity" />
-        <activity android:name=".calorie_chart_activity" />
-        <activity android:name=".calorie_evaluation_Activity" />
         <activity android:name=".diet_plan_Activity" />
-        <activity android:name=".quiz_Activity"></activity>
+        <activity android:name=".calorie_evaluation_Activity" />
+        <activity android:name=".quiz_Activity" />
+        <activity android:name=".bmiCalculation_Activity" />
+        <activity android:name=".SignIn_Activity" />
+        <activity android:name=".calorie_chart_activity" />
+        <activity android:name=".SingUp_Activity" />
+        <activity android:name=".view_diet_plan_Activity" />
+        <activity android:name=".calorie_selection_Activity" />
+        <activity android:name=".find_diet_plan_Activity"></activity>
     </application>
 
 </manifest>

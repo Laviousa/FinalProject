@@ -6,30 +6,26 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class diet_plan_Activity extends AppCompatActivity {
-
-    private Button viewDietPlan;
-
+public class find_diet_plan_Activity extends AppCompatActivity {
+private Button takeTest;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_diet_plan_);
+        setContentView(R.layout.activity_find_diet_plan_);
 
-        viewDietPlan=(Button)findViewById(R.id.diet_plan_button);
-
-        viewDietPlan.setOnClickListener(new View.OnClickListener() {
+        takeTest=(Button)findViewById(R.id.take_quiz_button);
+        takeTest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                viewDietPlan();
+                openQuizScreen();
             }
         });
+
     }
 
-    public void viewDietPlan()
+    public void openQuizScreen()
     {
-        Intent intent=new Intent(this,view_diet_plan_Activity.class);
+        Intent intent=new Intent(this,quiz_Activity.class);
         startActivity(intent);
-
     }
-
 }

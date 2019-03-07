@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Final Project</string>
+
+    <string-array name="calorie_selection">
+        <item>Choose</item>
+        <item>View Calorie Chart</item>
+        <item>Evaluate Calorie Requirements</item>
+
+
+    </string-array>
+
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+
 </resources>

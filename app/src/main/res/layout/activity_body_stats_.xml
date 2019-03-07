@@ -4,18 +4,31 @@
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="40dp"
-    android:paddingRight="40dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:background="@color/white"
+
 
     tools:context="com.example.zass.finalproject.BodyStats_Activity">
 
+
+    <ImageView
+        android:id="@+id/photo_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_centerVertical="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/backdrop_very_light"
+        android:visibility="visible"
+/>
     <TextView
         android:id="@+id/bodystats_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="BODY STATS SUMMARY"
         android:textAppearance="?android:textAppearanceLarge"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/colorOrange"
         android:textStyle="bold"
         android:layout_marginTop="13dp"
         android:layout_alignParentTop="true"
@@ -25,12 +38,13 @@
         android:id="@+id/weight_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="weight"
+
+        android:text="WEIGHT"
         android:textAppearance="?android:textAppearanceMedium"
         android:textColor="@color/colorPrimaryDark"
         android:textStyle="normal"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
         android:paddingTop="2dp"
         android:paddingBottom="2dp"
         android:layout_marginTop="39dp"
@@ -42,12 +56,12 @@
         android:id="@+id/height_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="height"
+        android:text="HEIGHT"
         android:textAppearance="?android:textAppearanceMedium"
         android:textColor="@color/colorPrimaryDark"
         android:textStyle="normal"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
         android:paddingTop="2dp"
         android:paddingBottom="2dp"
 
@@ -64,8 +78,8 @@
         android:textAppearance="?android:textAppearanceMedium"
         android:textColor="@color/colorPrimaryDark"
         android:textStyle="normal"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
         android:paddingTop="2dp"
         android:paddingBottom="2dp"
 
@@ -76,12 +90,12 @@
         android:id="@+id/Waist_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="waist"
+        android:text="WAIST"
         android:textAppearance="?android:textAppearanceMedium"
         android:textColor="@color/colorPrimaryDark"
         android:textStyle="normal"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
         android:paddingTop="2dp"
         android:paddingBottom="2dp"
 
@@ -92,12 +106,12 @@
         android:id="@+id/Bodyfat_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="body fat"
+        android:text="BODY FAT"
         android:textAppearance="?android:textAppearanceMedium"
         android:textColor="@color/colorPrimaryDark"
         android:textStyle="normal"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
         android:paddingTop="2dp"
         android:paddingBottom="2dp"
 
@@ -108,11 +122,11 @@
         android:id="@+id/chest_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="chest"
+        android:text="CHEST"
         android:textAppearance="?android:textAppearanceMedium"
         android:textColor="@color/colorPrimaryDark"
         android:textStyle="normal"
-        android:paddingLeft="10dp"
+        android:paddingLeft="40dp"
         android:paddingRight="10dp"
         android:paddingTop="2dp"
         android:paddingBottom="2dp"
@@ -124,11 +138,11 @@
         android:id="@+id/arm_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="arm"
+        android:text="ARM"
         android:textAppearance="?android:textAppearanceMedium"
         android:textColor="@color/colorPrimaryDark"
         android:textStyle="normal"
-        android:paddingLeft="10dp"
+        android:paddingLeft="40dp"
         android:paddingRight="10dp"
         android:paddingTop="2dp"
         android:paddingBottom="2dp"
@@ -145,15 +159,15 @@
         android:layout_height="35dp"
         android:hint="kg"
         android:textAppearance="?android:textAppearanceSmall"
-
+          android:paddingRight="0dp"
         android:inputType="number"
         android:textColorHint="@color/colorPrimaryDark"
         android:backgroundTint="@color/colorPrimaryDark"
 
         android:layout_alignBaseline="@+id/weight_text_view"
         android:layout_alignBottom="@+id/weight_text_view"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_toRightOf="@+id/bodystats_textview"
+        android:layout_toEndOf="@+id/bodystats_textview" />
 
     <EditText
         android:id="@+id/height_edit_text"
@@ -168,8 +182,8 @@
 
         android:layout_alignBaseline="@+id/height_text_view"
         android:layout_alignBottom="@+id/height_text_view"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignLeft="@+id/weight_edit_text"
+        android:layout_alignStart="@+id/weight_edit_text" />
     <EditText
         android:id="@+id/BMI_edit_text"
         android:layout_width="50dp"
@@ -182,8 +196,8 @@
         android:backgroundTint="@color/colorPrimaryDark"
         android:layout_alignBaseline="@+id/BMI_text_view"
         android:layout_alignBottom="@+id/BMI_text_view"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignLeft="@+id/height_edit_text"
+        android:layout_alignStart="@+id/height_edit_text" />
 
     <EditText
         android:id="@+id/waist_edit_text"
@@ -195,10 +209,9 @@
         android:inputType="number"
         android:textColorHint="@color/colorPrimaryDark"
         android:backgroundTint="@color/colorPrimaryDark"
-        android:layout_alignBaseline="@+id/Waist_text_view"
-        android:layout_alignBottom="@+id/Waist_text_view"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignTop="@+id/Waist_text_view"
+        android:layout_alignLeft="@+id/BMI_edit_text"
+        android:layout_alignStart="@+id/BMI_edit_text" />
 
     <EditText
         android:id="@+id/bodyfat_edit_text"
@@ -212,8 +225,8 @@
         android:backgroundTint="@color/colorPrimaryDark"
         android:layout_alignBaseline="@+id/Bodyfat_text_view"
         android:layout_alignBottom="@+id/Bodyfat_text_view"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignLeft="@+id/waist_edit_text"
+        android:layout_alignStart="@+id/waist_edit_text" />
 
 
     <EditText
@@ -228,8 +241,8 @@
         android:backgroundTint="@color/colorPrimaryDark"
         android:layout_alignBaseline="@+id/chest_text_view"
         android:layout_alignBottom="@+id/chest_text_view"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignLeft="@+id/bodyfat_edit_text"
+        android:layout_alignStart="@+id/bodyfat_edit_text" />
     <EditText
         android:id="@+id/arm_edit_text"
         android:layout_width="50dp"
@@ -242,8 +255,8 @@
         android:backgroundTint="@color/colorPrimaryDark"
         android:layout_alignBaseline="@+id/arm_text_view"
         android:layout_alignBottom="@+id/arm_text_view"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignLeft="@+id/chest_edit_text"
+        android:layout_alignStart="@+id/chest_edit_text" />
 
     <Button
         android:id="@+id/save_body_measurements_button"
@@ -258,10 +271,10 @@
 
 
         android:textAlignment="center"
-        android:layout_marginTop="17dp"
+        android:layout_marginTop="19dp"
         android:layout_below="@+id/arm_edit_text"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignLeft="@+id/update_body_measurements_button"
+        android:layout_alignStart="@+id/update_body_measurements_button" />
 
 
     <Button
@@ -277,8 +290,7 @@
 
 
         android:textAlignment="center"
+        android:layout_marginTop="12dp"
         android:layout_below="@+id/save_body_measurements_button"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="11dp" />
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

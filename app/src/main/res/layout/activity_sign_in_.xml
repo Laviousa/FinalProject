@@ -4,12 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
+
     tools:context="com.example.zass.finalproject.SignIn_Activity">
+
+
 
     <EditText
         android:id="@+id/user_email"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="375dp"
+        android:layout_height="48dp"
         android:hint="Email"
         android:inputType="textEmailAddress"
         tools:layout_constraintTop_creator="1"
@@ -25,7 +29,10 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginLeft="7dp"
-        android:layout_marginRight="7dp" />
+        android:layout_marginRight="7dp"
+        tools:layout_editor_absoluteX="2dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/user_password"
@@ -46,10 +53,12 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginLeft="7dp"
-        android:layout_marginRight="7dp" />
+        android:layout_marginRight="7dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.087" />
     <Button
         android:id="@+id/email_sign_in_button"
-        android:layout_width="167dp"
+        android:layout_width="184dp"
         android:layout_height="48dp"
 
         android:layout_gravity="center_horizontal"
@@ -64,7 +73,7 @@
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="133dp"
+        android:layout_marginTop="221dp"
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

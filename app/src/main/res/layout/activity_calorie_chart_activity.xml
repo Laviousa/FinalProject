@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context="com.example.zass.finalproject.calorie_chart_activity">
 
 
@@ -13,10 +14,17 @@
         android:layout_height="wrap_content"
         android:text="CALORIE CHART"
         android:textAppearance="?android:textAppearanceLarge"
-        android:textColor="@color/colorPrimaryDark"
-        android:textStyle="normal"
-        tools:layout_editor_absoluteY="27dp"
-        tools:layout_editor_absoluteX="109dp" />
+        android:textColor="@color/colorOrange"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.055"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
 
 <ImageView

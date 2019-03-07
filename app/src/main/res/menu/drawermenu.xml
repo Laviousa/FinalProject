@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/bS"
+        android:title="Body Statistics"
+        android:icon="@drawable/ic_assessment_black_24dp"/>
+
+
+    <item android:id="@+id/bC"
+        android:title="BMI Calculator"
+        android:icon="@drawable/ic_timeline_black_24dp"/>
+
+
+    <item android:id="@+id/cT"
+        android:title="Calorie Tracker"
+        android:icon="@drawable/ic_invert_colors_black_24dp"/>
+
+
+    <item android:id="@+id/lG"
+        android:title="Logout"
+        android:icon="@drawable/ic_power_settings_new_black_24dp"/>
+
+
+
+
+
+</menu>
